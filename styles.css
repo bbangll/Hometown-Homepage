@@ -1,0 +1,101 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    background: linear-gradient(#f9c929, #9f025e)
+}
+
+.hero {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.herotitle {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.herosubheading {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    width: 400px;
+}
+
+.activities {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagecontainers {
+    display: flex;
+    
+}
+
+.activitiesimages {
+    width: 300px;
+    height: 400px;
+    margin: 0 25px 0 0 ;
+    border-radius: 8px;
+    box-shadow: 10px 10px black;
+}
+
+#topthree {
+    margin-bottom: 30px;
+}
+
+.guide {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.guidecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    width: 400px;
+}
+
+.guideimage {
+    width: 300px;
+    border-radius: 8px;
+    margin-right: 50px;
+    box-shadow: 10px 10px black;
+    height: 350px;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 300;
+}
+
+h4 {
+    margin: 0 0 5px 0;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100px;
+}
